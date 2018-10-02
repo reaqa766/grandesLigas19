@@ -1,0 +1,57 @@
+<div class="divmenu">
+<img class="hamMenu" src="../../../assets/hamMenu.jpg" alt="" (click)="showNav()">
+</div>
+
+<div>
+  <h1 class="vinoT">VINOTINTOS EN GRANDES LIGAS</h1>
+  <h3 *ngIf="showNavBar==0" class="vinoTH3">Actualizaciones diarias</h3>
+  <button *ngIf="showNavBar==0" class="btnFondoA">Noticias</button>
+  <button *ngIf="showNavBar==0" class="btnFondoA1">Comentarios</button>
+</div>
+
+
+<div *ngIf="showNavBar==1" class="container" >
+  <ul class="navbar">
+    <li> <a href="#partA">Home</a></li>
+    <li><a href="#partB">Posiciones</a></li>
+    <li><a href="#partC">Redes S</a></li>
+    <li><a href="#partD">Nosotros</a></li>
+    <li><a href="#partE">Registrese</a></li>
+  </ul>
+</div>
+
+<header id="partA" class="backgBaseballA backgBaseball">
+  <!-- <img src="../../../assets/fondo.jpg" alt="Baseball background"> -->
+</header>
+<div id="partB" class="backgBaseballB backgBaseball">
+  <!-- <img src="../../../assets/fondo.jpg" alt="Baseball background"> -->
+<h3 class="actuacionH3"> ACTUACION POR POSICION</h3>
+
+<ul class="navbar2" >
+  <li> <a href="/">CUADRO</a></li>
+  <li><a href="/">JARDINES</a></li>
+  <li><a href="/">PITCHERS S</a></li>
+</ul>
+
+
+
+</div>
+<div id="partC" class="backgBaseballC backgBaseball">
+  <!-- <img src="../../../assets/fondo.jpg" alt="Baseball background"> -->
+  <h3 class="redesSocialesH3"> LOS JUGADORES </h3>
+  <h3 class="redesSocialesH3B"> Y SUS REDES SOCIALES</h3>
+  <img class="instagramIcono" src="../../../assets/instagram.jpg" alt="">
+  <img class="twitterIcono" src="../../../assets/twitter.png" alt="">
+  <img class="facebookIcono" src="../../../assets/facebook.png" alt="">
+</div>
+<div id="partD" class="backgBaseballD backgBaseball">
+  <!-- <img src="../../../assets/fondo.jpg" alt="Baseball background"> -->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum
+    distinctio consectetur, quae et vitae ipsum voluptatibus nesciunt fuga dicta!</p>
+  </div>
+<div id="partE" class="backgBaseballE backgBaseball">
+  <!-- <img src="../../../assets/fondo.jpg" alt="Baseball background"> -->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum
+    distinctio consectetur, quae et vitae ipsum voluptatibus nesciunt fuga dicta!</p>
+  </div>
+

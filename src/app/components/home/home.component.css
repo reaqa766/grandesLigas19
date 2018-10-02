@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container  {
+  display: flex;
+
+
+}
+
+ul {
+  background: transparent;
+  display: flex;
+  /* justify-content: flex-start; */
+  /* align-content: space-between; */
+  padding: 5%;
+  list-style-type: none;
+  position: fixed;
+  top: 5px;
+
+
+
+}
+
+/* li  {
+  background: transparent;
+    justify-content: flex-start;
+  align-content: space-between;
+
+
+} */
+.backgBaseballA {
+  margin: 0;
+
+background: url("../../../assets/fondoA.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+height: 100vh;
+color: wheat;
+/* border: red solid 2px; */
+box-sizing: border-box;
+z-index: -1;
+
+
+        }
+
+.backgBaseballB {
+  margin: 0;
+
+  background: url("../../../assets/FondoC.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  height: 100vh;
+  color:wheat;
+  z-index: -1;
+
+  /* border: red solid 2px; */
+
+  }
+.backgBaseballC {
+  margin: 0;
+  box-sizing: border-box;
+  background: url("../../../assets/fondoB.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color:wheat;
+  z-index: -1;
+
+  /* border: red solid 2px; */
+
+  }
+.backgBaseballD {
+  margin: 0;
+  box-sizing: border-box;
+  background: url("../../../assets/FondoD.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color:wheat;
+  z-index: -1;
+
+  /* border: red solid 2px; */
+
+  }
+.backgBaseballE {
+  margin: 0;
+  box-sizing: border-box;
+  background: url("../../../assets/FondoE.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color:wheat;
+  z-index: -1;
+
+  /* border: red solid 2px; */
+
+  }
+
+  p  {
+    padding: 15% 0;
+  }
+
+  .divmenu {
+    position: fixed;
+    top: 1erm;
+    right: 5%;
+
+
+  }
+
+.hamMenu{
+  position: absolute;
+  width: 10vw;
+  height: 5vh;
+  right:  1.5vw;
+  z-index: 2;
+  margin: 7vh 0;
+  border-radius: 15%;
+
+}
+
+  .navbar {
+    margin: 35% 0%;
+    display: flex;
+    /* justify-content: flex-start;
+    align-content: center; */
+    color: rgb(253, 253, 253);
+    font-size: .8rem;
+    font-weight: bold;
+    text-decoration: none;
+    flex-direction: column;
+
+  }
+  ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    display: flex;
+    padding: 1.5em;
+    background-color: rgba(255,255,255,.35);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.btnFondoA{
+  position: absolute;
+  font-size: .7rem;
+  top: 28%;
+  left: 55%;
+  width: 20%;
+  border: none;
+  border-radius: 7%;
+  background-color: rgba(28, 123, 213, .1);
+  color: wheat;
+}
+.btnFondoA1{
+  position: absolute;
+  font-size: .7rem;
+  top: 28%;
+  left: 20%;
+  width: 20%;
+  border: none;
+  border-radius: 7%;
+  background-color: rgba(28, 123, 213, .1);
+  color: wheat;
+}
+
+.vinoT  {
+  display:flex;
+  position: absolute;
+  color: antiquewhite;
+  font-size: .9em;
+  top: 20%;
+  margin-left: 15%;
+  margin-right: 10%;
+
+}
+.vinoTH3  {
+  display:flex;
+  position: absolute;
+  color: antiquewhite;
+  font-size: .9em;
+  top: 24%;
+  margin-left: 25%;
+
+}
+
+.actuacionH3 {
+  display:flex;
+  position: relative;
+  color: antiquewhite;
+  font-size: .9em;
+  top: 7%;
+  margin-left: 17%;
+  margin-right: 10%;
+}
+
+.redesSocialesH3 {
+  display:flex;
+  position: relative;
+  color: antiquewhite;
+  font-size: .8em;
+  top: 5%;
+  margin-left: 33%;
+  margin-right: 10%;
+}
+.redesSocialesH3B {
+  display:flex;
+  position: relative;
+  color: antiquewhite;
+  font-size: .8em;
+  top: 8%;
+  margin-left: 30%;
+  margin-right: 10%;
+}
+
+.navbar2 {
+  margin: 13% 0% 40% 8%;
+  display: flex;
+  position: relative;
+  /* justify-content: flex-start;
+  align-content: center; */
+  color: rgb(253, 253, 253);
+  font-size: .8rem;
+  font-weight: bold;
+  text-decoration: none;
+  flex-direction: row;
+
+}
+
+.instagramIcono {
+position: relative;
+height: 8%;
+left: 20%;;
+margin-top: 18%;
+bottom:14%;
+border-radius: 30%;
+background-color: rgba(255,255,255,.8);
+}
+.facebookIcono {
+position: relative;
+height: 8%;
+left: 40%;;
+margin-top: 18%;
+bottom:14%;
+border-radius: 30%;
+background-color: rgba(255,255,255,.8);
+}
+.twitterIcono {
+position: relative;
+height: 8%;
+left: 30%;;
+margin-top: 18%;
+bottom:14%;
+border-radius: 30%;
+background-color: rgba(255,255,255,.8);
+}
+
